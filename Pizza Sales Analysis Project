@@ -1,0 +1,53 @@
+Pizza Sales Analysis Project
+This project involves analyzing pizza sales data to uncover key insights and identify the main revenue drivers for a pizza business. Using SQL in MySQL Workbench,
+I performed data analysis on pizza sales to understand trends and patterns, with the goal of optimizing the menu offerings and enhancing overall sales performance.
+
+Overview
+The Pizza Sales Analysis Project aims to provide actionable insights by analyzing pizza sales data. 
+By examining various metrics such as the popularity of different pizza types and sizes, revenue generation, and sales trends, 
+this analysis helps pizza businesses optimize their menu offerings and improve sales strategies.
+Through this project, I was able to analyze sales performance and identify which menu items contribute the most to revenue. 
+The goal was to deliver insights that could inform decisions on product offerings, pricing, and promotional strategies.
+
+Key Metrics
+Here are some of the key metrics I focused on during the analysis:
+Most Popular Pizza Types and Sizes: Identified which pizza types (e.g., Margherita, Pepperoni, Veggie) and sizes (e.g., small, medium, large) are the most frequently ordered.
+Total Revenue: Calculated the total revenue generated from pizza sales, as well as revenue by product type.
+Top Revenue-Generating Items: Identified the highest revenue-generating pizzas, including those that performed better during specific days or seasons.
+
+Technologies Used
+SQL: Used SQL for data analysis, performing queries to extract, aggregate, and analyze the pizza sales data.
+MySQL Workbench: Used as the database management system to run SQL queries and analyze data.
+Excel: The initial dataset was in Excel format, which was then imported into MySQL Workbench for analysis.
+
+Installation
+To run this project and use the SQL queries on your own dataset:
+
+Step 1: Download datasets or download zip file 
+Step 2: Set up MySQL Workbench
+Download and install MySQL Workbench.
+
+Open MySQL Workbench and create a new database (schema) to store the pizza sales data.
+
+Step 3: Import Data from Excel into MySQL Workbench
+Prepare your Excel file: Ensure the Excel file is structured with columns corresponding to the fields in the dataset (Order ID, Pizza Type, Size, Quantity Sold, Price, Order Date, and Revenue).
+
+Save your Excel file as a CSV: In Excel, go to File > Save As, and choose the CSV format.
+
+Import CSV into MySQL Workbench:
+
+Open MySQL Workbench and connect to your MySQL instance.
+Select the Schema (database) you want to import the data into.
+Go to the Table Data Import Wizard (right-click on the schema, choose Table Data Import Wizard).
+Choose the CSV file you saved earlier.
+Follow the steps to map the CSV columns to the table columns in MySQL.
+Once completed, the data will be imported into your MySQL database.
+Step 4: Run the SQL Queries
+Once the data is imported, use the SQL Editor in MySQL Workbench to run the queries provided in the SQL Queries section above.
+
+Analyze the output of each query to get insights into pizza sales trends and revenue drivers.
+
+Usage
+After setting up the database and importing the data, open MySQL Workbench.
+Execute the SQL queries in the SQL Editor to analyze the data and extract insights.
+Use the results to inform your business decisions related to menu optimization, pricing, and sales strategy.
